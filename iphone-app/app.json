@@ -16,7 +16,7 @@
     "ios": {
       "bundleIdentifier": "com.s3od177.pcremote",
       "supportsTablet": true,
-      "buildNumber": "3",
+      "buildNumber": "4",
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true,
         "NSLocalNetworkUsageDescription": "PC Remote connects to your computer on your Wi-Fi to send it commands like shutdown and sleep.",
