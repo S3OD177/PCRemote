@@ -10,6 +10,10 @@ The source is configured for iOS 16.4 or later with bundle identifier
 2. Request Apple's Multicast Networking Entitlement. The Wake-on-LAN feature
    sends a UDP broadcast and the app declares
    `com.apple.developer.networking.multicast`.
+   - Requested from Apple on October 8, 2026.
+   - Request ID: `4X6Q7BTG5B`.
+   - Status: awaiting Apple review. Recreate the provisioning profile after
+     approval, then start a new production build.
 3. Sign in to Expo/EAS, run `npx eas-cli init` in `iphone-app`, and commit the
    real EAS project ID that command adds.
 4. Create the app in App Store Connect with the same bundle identifier.
