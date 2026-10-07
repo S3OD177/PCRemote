@@ -24,7 +24,8 @@
         "NSAppTransportSecurity": {
           "NSAllowsLocalNetworking": true
         },
-        "UIBackgroundModes": []
+        "UIBackgroundModes": [],
+        "ExpoLocalization_supportsRTL": true
       },
       "entitlements": {
         "com.apple.developer.networking.multicast": true
@@ -32,7 +33,13 @@
     },
     "android": {
       "package": "com.s3od177.pcremote",
-      "permissions": ["INTERNET", "CAMERA", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"]
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE",
+        "android.permission.CAMERA"
+      ]
     },
     "locales": {
       "en": "./locales/en.json",
@@ -62,6 +69,12 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a6d780c7-749f-42d6-bcd9-f0bc11249963"
+      }
+    },
+    "owner": "s3od177"
   }
 }
