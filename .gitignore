@@ -17,6 +17,7 @@ android/
 .env.*
 !.env.example
 *.log
+eas-build.log
 .DS_Store
 Thumbs.db
 
