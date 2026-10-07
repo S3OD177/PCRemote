@@ -53,6 +53,10 @@ const STRINGS = {
 
     // pairing
     addPC: 'أضف كمبيوتر',
+    getAppTitle: 'أول شي: برنامج الكمبيوتر',
+    getAppBody: 'عشان تتحكم بكمبيوترك، لازم تثبّت برنامج PC Remote المجاني على ويندوز.',
+    getAppUrlLabel: 'على كمبيوترك، افتح هذا الرابط وحمّله:',
+    haveItScan: 'ثبّته؟ امسح رمز الربط',
     pairTitle: 'امسح رمز الربط',
     pairHint: 'افتح برنامج PC Remote على الكمبيوتر، واضغط «Pair iPhone»، ثم وجّه الكاميرا للرمز',
     cameraNeeded: 'نحتاج إذن الكاميرا',
@@ -122,6 +126,10 @@ const STRINGS = {
     notConnected: 'The PC is offline right now',
 
     addPC: 'Add a PC',
+    getAppTitle: 'First, get the PC app',
+    getAppBody: 'To control your PC, install the free PC Remote app on your Windows computer.',
+    getAppUrlLabel: 'On your computer, open this link and download it:',
+    haveItScan: 'Installed it? Scan the code',
     pairTitle: 'Scan the pairing code',
     pairHint: 'Open PC Remote on your computer, click “Pair iPhone”, then point the camera at the code',
     cameraNeeded: 'Camera access needed',
