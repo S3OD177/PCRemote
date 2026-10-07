@@ -1,0 +1,25 @@
+# Dependencies and Expo output
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Native build output and signing material
+ios/
+android/
+*.mobileprovision
+*.p12
+*.cer
+*.key
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Go build output
+windows-helper/source/PCRemote.exe
+

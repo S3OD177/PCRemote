@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "PC Remote",
+    "slug": "pc-remote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "pcremote",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#070b16",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070b16"
+    },
+    "ios": {
+      "bundleIdentifier": "com.s3od177.pcremote",
+      "supportsTablet": true,
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSLocalNetworkUsageDescription": "PC Remote connects to your computer on your Wi-Fi to send it commands like shutdown and sleep.",
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        },
+        "UIBackgroundModes": []
+      },
+      "entitlements": {
+        "com.apple.developer.networking.multicast": true
+      }
+    },
+    "android": {
+      "package": "com.s3od177.pcremote",
+      "permissions": ["INTERNET", "CAMERA", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"]
+    },
+    "locales": {
+      "en": "./locales/en.json",
+      "ar": "./locales/ar.json"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "PC Remote uses the camera once, to scan the pairing code shown on your computer.",
+          "barcodeScannerEnabled": true,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-localization",
+        {
+          "supportsRTL": true
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "16.4"
+          }
+        }
+      ]
+    ]
+  }
+}

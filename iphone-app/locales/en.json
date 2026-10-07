@@ -1,0 +1,7 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "PC Remote",
+    "NSCameraUsageDescription": "PC Remote uses the camera once, to scan the pairing code shown on your computer.",
+    "NSLocalNetworkUsageDescription": "PC Remote connects to your computer on your Wi-Fi to send it commands like shutdown and sleep."
+  }
+}
