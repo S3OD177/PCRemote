@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "PC Remote",
+    "name": "koz pc",
     "slug": "pc-remote",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -26,9 +26,6 @@
         "UIBackgroundModes": [],
         "ExpoLocalization_supportsRTL": true,
         "ITSAppUsesNonExemptEncryption": false
-      },
-      "entitlements": {
-        "com.apple.developer.networking.multicast": true
       }
     },
     "android": {
